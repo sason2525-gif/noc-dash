@@ -23,7 +23,7 @@ const firebaseConfig = {
   messagingSenderId: "484408665691",
   appId: "1:484408665691:web:03a9ae99c566232e09417e",
   measurementId: "G-J79VRKMKE5"
-}; 
+};
 
 // הגנה: אם המשתמש שכח להגדיר מפתחות, האפליקציה לא תקרוס בבנייה
 const isConfigValid = firebaseConfig.apiKey !== "YOUR_API_KEY";
